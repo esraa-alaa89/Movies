@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,300;0,400;0,500;0,600;1,300;1,500&family=Montserrat+Subrayada:wght@700&family=Montserrat:ital,wght@0,500;0,700;1,700&family=Noto+Sans&family=Xanh+Mono:ital@1&display=swap');
+
+:root
+{
+  --bgColor : #131722;
+  --color : #fff;
+  --fontFamily : 'Xanh Mono', monospace;
+  --semiBgColor : #24baef;
+}
+
+body
+{
+  background-color: var(--bgColor) !important;
+  color: var(--color) !important;
+  font-size: 1.5;
+  font-family: var(--fontFamily) !important;
+}
+
+h2::after
+{
+content: '';
+
+}
+
+i
+{
+  transition: all .5s;
+}
+
+i:hover
+{
+  transform: scale(1.5,1.5);
+  color: rgb(111, 130, 189);
+}
+
+input
+{
+  margin-left: 5px;
+  border-width: 0px 0px 1px 0px !important;
+  width: 75% !important;
+}
+
+.itemShadow
+{
+  shadow : 0 5rem 8rem rgba(139, 12, 12, 0.175)!important;
+  border: solid #b8d6e1 3px;
+  border-radius: 20px;
+}
